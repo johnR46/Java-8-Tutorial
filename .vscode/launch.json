@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - LambdaIntroduction",
+            "request": "launch",
+            "mainClass": "LambdaIntroduction"
+        }
+    ]
+}
