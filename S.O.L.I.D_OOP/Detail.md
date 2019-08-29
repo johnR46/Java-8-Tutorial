@@ -122,9 +122,26 @@
 
       -------------------------------
 
+   * D --- Dependency Inversion(DIP)
+      * เป็นหลักการสุดท้ายของ S.O.L.I.D กล่าวว่า หน่วยของซอฟแวร์จะต้องขึ้นอยู่กับ Abstraction ไม่ใช่ขึ้นอยู่กับ Connection โดยระบุว่า module ในระดับสูงจะไม่ขึ้นกับโมดุลระดับล่างแต่ควรจะขึ้นกับ abstraction 
+
+      ---------------------------------------
+
+      Depen on abstractions, not on connections.
+
+      ---------------------------------------
+
+      นั่นคือควรทำให้ software ขึ้นกับ abstract class หรือ interface แทน ที่จะขึ้นอบู่กับ concrete class
+      เราก็ใช้ตัวอย่างเดิม AreaCalculator_4.java  ถ้า mthod "calc"  รับค่าเป็น concrete class  Circle จะไม่ตรงกับ หลักการดังนี้ 
+
       
+      ---------------------------------------
+       Code in interface_2.java
 
+      ---------------------------------------
 
+      ดังนั้นเราก็สร้าง abstract class shape ขึ้นมาเพื่อให้ method calc ไม่ขึ้นอยู่กับ concrete c a class Circle อย่างเดียว ในอนาคตถ้ามีการเพิ่ม   เติ่มรูปแบบ ในอนาคตถ้ามีการเพิ่มเติมรูปแบบก็จะไม่ต้องแก้ไข method “calc” อีก
+       
 
 
 
