@@ -2,9 +2,24 @@
     "configurations": [
         {
             "type": "java",
-            "name": "CodeLens (Launch) - LambdaIntroduction",
+            "name": "CodeLens (Launch) - NumArrayList",
             "request": "launch",
-            "mainClass": "LambdaIntroduction"
+            "mainClass": "NumArrayList",
+            "projectName": "Java-8-Tutorial_61b4cda7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Numbers",
+            "request": "launch",
+            "mainClass": "Numbers",
+            "projectName": "Java-8-Tutorial_61b4cda7"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Hello",
+            "request": "launch",
+            "mainClass": "Hello",
+            "projectName": "Java-8-Tutorial_61b4cda7"
         }
     ]
 }

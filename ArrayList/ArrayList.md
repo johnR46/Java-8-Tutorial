@@ -58,7 +58,21 @@ ref java programming ขีทพี่ต้า
 * มาถึงอันที่ปวดหัวละ ArrayList ของ Class 
     * Array สามารถเก็บหลาๆ Object ของตัว Class ได้ (Array ธรรมดายังทำได้ อันนี่ก็ต้องทำได้อะนะ )
         * ArrayList<nameClass> nameArrayList  = ArrayList<nameClass>(); 
-        * ยกตัวอย่างด้วย num.java
+        * ยกตัวอย่างด้วย NumArrayList.java
+    * นอกเรื่อง
+        * ปกติเวลาสร้าง object เราจะสร้างแบบ  class name_class  = new class(); โดยที่ไม่รู้ว่าทำไมต้อง new เช่นการสั่ง Num n1 = new Num(1);
+            * สั่ง Num n1 จะทำหน้าที่คล้ายๆ สร้างป้ายชื่อ ว่า n1 มา 
+            * สั่ง new Num(1); จะมีการสร้าง object มาใหม่ก้อนหนึ่ง  แล้วเอาป้ายชื่อติดเข้าไป จบนอกเรื่อง
+
+    * อธิบายโค้ดสักเล็กน้อย
+        * list.get(i).getNum2();
+            * list.get(i) อ้างถึง object ตัวนึงสมมุติว่า get(1) มันจะมองว่าเป็น n2
+                * n2.getNum2();
+                    * n2 เป็น Num มี getNum2() 
+                        * getNum2() เมื่อถูกเรียกจะ return A*A มาให้ ซึ่ง A ของ n2 มีค่าเท่ากับ 2
+        * สรุป list.get(1).getNum2(); มีค่าเท่ากับ  2*2 = 4  
+    
+
 
     
         
