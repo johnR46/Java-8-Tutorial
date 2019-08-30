@@ -2,6 +2,30 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Tester",
+            "request": "launch",
+            "mainClass": "Tester"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - BankAccount",
+            "request": "launch",
+            "mainClass": "BankAccount"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Run",
+            "request": "launch",
+            "mainClass": "Run"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Hello",
+            "request": "launch",
+            "mainClass": "Hello"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - NumArrayList",
             "request": "launch",
             "mainClass": "NumArrayList",
@@ -9,16 +33,16 @@
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - Numbers",
+            "name": "CodeLens (Launch) - Hello",
             "request": "launch",
-            "mainClass": "Numbers",
+            "mainClass": "Hello",
             "projectName": "Java-8-Tutorial_61b4cda7"
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - Hello",
+            "name": "CodeLens (Launch) - Run",
             "request": "launch",
-            "mainClass": "Hello",
+            "mainClass": "Run",
             "projectName": "Java-8-Tutorial_61b4cda7"
         }
     ]
