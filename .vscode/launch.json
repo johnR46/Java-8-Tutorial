@@ -2,6 +2,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - sampleLinkList",
+            "request": "launch",
+            "mainClass": "sampleLinkList"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - binarySearch",
+            "request": "launch",
+            "mainClass": "binarySearch"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - normalSearch",
+            "request": "launch",
+            "mainClass": "normalSearch"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - sampleInsertion",
+            "request": "launch",
+            "mainClass": "sampleInsertion"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - sampleSelectionSort",
+            "request": "launch",
+            "mainClass": "sampleSelectionSort"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - towerHanoi",
+            "request": "launch",
+            "mainClass": "towerHanoi"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - fact",
+            "request": "launch",
+            "mainClass": "fact"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - sampleException",
             "request": "launch",
             "mainClass": "sampleException"
