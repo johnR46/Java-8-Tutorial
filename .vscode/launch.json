@@ -2,6 +2,12 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - sampleException",
+            "request": "launch",
+            "mainClass": "sampleException"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - RunSampleInheritance",
             "request": "launch",
             "mainClass": "RunSampleInheritance"
